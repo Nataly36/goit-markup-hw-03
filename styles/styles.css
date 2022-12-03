@@ -107,6 +107,7 @@ p{
 .hero{
     background: var(--color-second);
     text-align: center;
+    height: 603px;
     
 }
 .hero-title{
@@ -117,7 +118,6 @@ p{
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 48px;
-    letter-spacing: 0.02em;
     color: var(--page-background-color);
 }
 .hero-but{
@@ -282,11 +282,8 @@ p{
     color:var(--color-link) ;
 }
 .foot-text{
-    width: 264px;
-    font-family: "Roboto";
-    font-size: 16px;
-    line-height: 1.5;
-    padding-left: 15px;
+    max-width: 264px;
+    margin-left: 15px;
     
 } 
 .foot-text, .logo-web1{
