@@ -151,7 +151,10 @@ p{
     
 }
 .proposition-grid-bloc{
+    display: block;
     width: 264px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .proposition-title{
     margin-bottom: 8px;
@@ -165,7 +168,7 @@ p{
 }
 .section-img{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 24px;
     
 }
@@ -179,7 +182,7 @@ p{
 .section-team{
     display: flex;
     gap: 24px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 .section-tea-map{
