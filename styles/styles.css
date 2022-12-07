@@ -67,7 +67,7 @@ p{
 .logo {
     font-family:'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     line-height: 1.33;
     color:var(--color-link) ;
@@ -108,6 +108,8 @@ p{
     text-align: center;
     padding-top: 192px;
     padding-bottom: 192px;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 .hero-title{
@@ -197,7 +199,7 @@ p{
 .section-team-img{
     display: block;
     max-width: 100%;
-    height: auto;
+    
     
 }
 
@@ -241,7 +243,6 @@ p{
     align-items: center;
     }
     .portfolio-map{
-        height: 420px;
         max-width:  360px;
         margin-bottom: 48px;
     }
